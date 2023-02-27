@@ -12,7 +12,7 @@ except:
     window.iconbitmap("icon.ico")
 window.resizable(width=False,height=False)
 title_main = Label(window, text="Girlfriend/Crush Database", font=("Arial", 40));
-title_main2 = Label(window, text="HAPPY BIRTHDAY BRUV!!", font=("Arial", 20));
+# title_main2 = Label(window, text="HAPPY BIRTHDAY BRUV!!", font=("Arial", 20));
 frame = Frame(window,bg="green")
 add = Button(frame,text="ADD",font=("Arial", 20),command=lambda:b.add())
 remove = Button(frame,text="REMOVE",font=("Arial", 20),command=lambda:b.remove())

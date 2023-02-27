@@ -1,8 +1,11 @@
 from tkinter import *
 from main import *
 import pymongo
+import dotenv
 
-client = pymongo.MongoClient("mongodb+srv://monke:monke@cluster0.x4cfdkq.mongodb.net/?retryWrites=true&w=majority")
+
+
+client = pymongo.MongoClient(dotenv.get_key(key_to_get="TOKEN",dotenv_path=".env"))
 db = client["main"].get_collection("data")
 
 
