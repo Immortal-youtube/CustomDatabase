@@ -24,5 +24,5 @@ if __name__ == "__main__":
     remove.pack(side=RIGHT)
     seeall.pack()
     frame.pack(padx=30,pady=20)
-    title_main2.pack()
+    # title_main2.pack()
     window.mainloop()
